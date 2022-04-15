@@ -1,7 +1,7 @@
 import openpyxl
 
 def get_data(sheetName):
-    workbook = openpyxl.load_workbook("..//excel//testdata.xlsx")
+    workbook = openpyxl.load_workbook("/Volumes/Macintosh HD/For Mac/python project/PageObjectModel/Excel/testdata.xlsx")
     sheet = workbook[sheetName]
     totalrows = sheet.max_row
     totalcols = sheet.max_column
