@@ -34,5 +34,5 @@ cols = getColCount(path,sheetName)
 
 print(rows,"----",cols)
 
-print(getCellData(path,sheetName,2,1))
+getCellData(path,sheetName,2,1)
 setCellData(path,sheetName,1,4,"DOB")
