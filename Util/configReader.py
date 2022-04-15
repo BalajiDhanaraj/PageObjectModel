@@ -8,7 +8,7 @@ from configparser import ConfigParser
 
 def readConfig(section,key):
     config = ConfigParser()
-    config.read("..\\ConfigurationData\\conf.ini")
+    config.read("/Volumes/Macintosh HD/For Mac/python project/PageObjectModel/Config/conf.ini")
     return config.get(section,key)
 
 print(readConfig("locators","name_XPATH"))
