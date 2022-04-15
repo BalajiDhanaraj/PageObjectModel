@@ -32,7 +32,7 @@ sheetName = "LoginTest"
 rows = getRowCount(path,sheetName)
 cols = getColCount(path,sheetName)
 
-print(rows,"---",cols)
+print(rows,"----",cols)
 
 print(getCellData(path,sheetName,2,1))
 setCellData(path,sheetName,1,4,"DOB")
